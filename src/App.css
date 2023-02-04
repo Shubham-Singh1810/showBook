@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
+/* navbar start */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* navbar end */
+/* banner  start*/
+.banner{
+  height: 50vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.banner img{
+  height: 50vh;
 }
+/* banner  end*/
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* list component start */
+.listGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.list{
+  padding: 50px 100px;
+}
+.listHeading{
+  font-family: sans-serif;
+  margin-left: 15px;
+}
+/* list component end */
+/* card start */
+.card img{
+  height: 350px;
+  width: 100%;
+  border-radius: 12px 12px 0px 0px;
+}
+.card{
+  margin: 10px 15px;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 12px;
+}
+.rating{
+  background-color: black;
   color: white;
+  padding: 5px 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.rating img{
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.margin0{
+  margin: 0px !important;
 }
+.mono{
+  font-family: monospace;
+  
+}
+/* card end */
+/* sticker start  */
+.sticker img{
+  height: 35vh;
+  width: 100%;
+  margin: 10px 0px;
+}
+/* sticker start  */
